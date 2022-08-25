@@ -1,9 +1,9 @@
-import classes from "./MealsSummary.module.css";
+import classes from './MealsSummary.module.css';
 
-const MealsSummery = (props) => {
+const MealsSummary = () => {
   return (
     <section className={classes.summary}>
-      <h2>Delicius food, Delivered to you</h2>
+      <h2>Delicious Food, Delivered To You</h2>
       <p>
         Choose your favorite meal from our broad selection of available meals
         and enjoy a delicious lunch or dinner at home.
@@ -15,4 +15,5 @@ const MealsSummery = (props) => {
     </section>
   );
 };
-export default MealsSummery;
+
+export default MealsSummary;
